@@ -1,0 +1,17 @@
+{
+  "name": "juli",
+  "version": "1.0.0",
+  "description": "A bot that communicates between Discord chat and Twitch chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "author": "Heather Elizabeth (LizaByte)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "express": "^4.15.2",
+    "tmi.js": "^1.2.0",
+    "twitch-irc": "^1.2.7"
+  }
+}
