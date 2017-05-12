@@ -1,8 +1,10 @@
+const config = require('./config.json');
+
 //start discord
 const Discord = require('discord.js');
 const dclient = new Discord.Client();
 
-const token = 'INPUT DISCORD TOEKN HERE';
+const token = config.tokens.discord;
 
 dclient.on('ready', () => {
 	console.log('We ready, fam!');
@@ -28,7 +30,7 @@ var options = {
 	},
 	identity: {
 		username: "julibotv1",
-		password: "INPUT OAUTH HERE"
+		password: config.tokens.twitch
 	},
 	channels: ["#lizabyte"]
 };
@@ -54,4 +56,7 @@ client.on("chat", function(channel, userstate, message, self) {
 			channel.send('Pont');
 			console.log(dclient.channels.first());
 		};
+		var channel = dclient.channels.find('name','juli-scrabble');
+		var username = userstate['username'];
+		channel.send('**'+username+'**: '+message);
 });
