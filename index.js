@@ -3,7 +3,7 @@ const config = require('./config.json');
 //start discord
 const Discord = require('discord.js');
 const dclient = new Discord.Client();
-
+const music = require('discord.js-music-v11');
 const token = config.tokens.discord;
 
 dclient.on('ready', () => {
@@ -16,10 +16,13 @@ dclient.on('message', message => {
 	}
 });
 
+music(dclient);
+
+
 dclient.login(token);
 
 
-
+// start twitch
 var tmi = require("tmi.js");
 var options = {
 	options: {
@@ -56,6 +59,7 @@ client.on("chat", function(channel, userstate, message, self) {
 			channel.send('Pont');
 			console.log(dclient.channels.first());
 		};
+		//relays twitch chat to discord server
 		var channel = dclient.channels.find('name','juli-scrabble');
 		var username = userstate['username'];
 		channel.send('**'+username+'**: '+message);
