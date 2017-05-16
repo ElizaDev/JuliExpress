@@ -1,6 +1,6 @@
 # JuliExpress
 
-Juli is a bot used to relay chat between Twitch and Discord. The bot is still very new and undeveloped. Expect many changes and features to come. Please follow my Trello board for upcoming features and progress.
+Juli is a bot used to relay chat between Twitch and Discord and play music. The bot is still very new and undeveloped. Expect many changes and features to come. Please follow my Trello board for upcoming features and progress.
 
 https://trello.com/b/ozXDGoF8/julibotv1
 
