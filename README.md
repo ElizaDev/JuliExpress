@@ -4,10 +4,7 @@ I am currently too busy to update this. Feel free to use it, but it might not wo
 
 # JuliExpress
 
-Juli is a bot used to relay chat between Twitch and Discord and play music. The bot is still very new and undeveloped. Expect many changes and features to come. Please follow my Trello board for upcoming features and progress.
-
-https://trello.com/b/ozXDGoF8/julibotv1
-
+Juli is a bot used to relay chat between Twitch and Discord and play music. The bot is still very new and undeveloped. It probably won't work anymore. It hasnt had updates in over a year or two.
 
 # Requirements
 
@@ -17,7 +14,6 @@ This bot is dependant upon tmi.js(https://docs.tmijs.org/), discord.js(https://d
 
 
 # Contact
-Feel free to join discord or the twitch stream if you want to help or have any questions.
 
-My Personal Discord: https://discord.gg/0g1io1PAuyvGS6Pi
+I'm no longer supporting this code.
 
